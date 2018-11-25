@@ -1,7 +1,12 @@
 RESTful API in Node and Express
-	* A minimal, secure RESTFUL api for NodeJS. This project includes api authentication , get stats , count , search of battles . JWT token includes all the apis for auth. Import sample data from seeds folder.
+
+A minimal, secure RESTFUL api for NodeJS. 
+This project includes api authentication , get stats , count , search of battles .
+JWT token includes all the apis for auth. Import sample data from seeds folder.
+
 Requirements
  Node and npm
+
 Installation
  Clone the repo: git clone git@github.com:sandeep33-k/battle-node-api
  Install dependencies: npm install
