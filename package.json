@@ -1,0 +1,30 @@
+{
+  "name": "battle-node-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandeep33-k/battle-node-api.git"
+  },
+  "keywords": [],
+  "author": "Sandeep",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandeep33-k/battle-node-api/issues"
+  },
+  "homepage": "https://github.com/sandeep33-k/battle-node-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "helmet": "^3.15.0",
+    "jwt-simple": "^0.5.5",
+    "moment": "^2.22.2",
+    "mongodb": "^2.2.33",
+    "mongoose": "^4.13.6",
+    "winston": "^3.1.0"
+  }
+}
