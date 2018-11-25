@@ -1,4 +1,8 @@
 node_modules
 .env
 .project
+<<<<<<< HEAD
 npm-debug.log
+=======
+npm-debug.log
+>>>>>>> 3883da2835e2e075f3d3a7eb37ec636fa9b62e18
