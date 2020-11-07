@@ -1,37 +1,31 @@
-RESTful API in Node and Express
+---
+page_type: sample
+languages:
+  - python
+products:
+  - azure
+  - azure-redis-cache
+description: "This sample creates a multi-container application in an Azure Kubernetes Service (AKS) cluster."
+---
 
-A minimal, secure RESTFUL api for NodeJS. This project includes api authentication , get stats , count , search of battles.
-JWT token includes all the apis for auth. Import sample data from seeds folder.
+# Azure Voting App
 
+This sample creates a multi-container application in an Azure Kubernetes Service (AKS) cluster. The application interface has been built using Python / Flask. The data component is using Redis.
 
-Installation
+To walk through a quick deployment of this application, see the AKS [quick start](https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough?WT.mc_id=none-github-nepeters).
 
- git clone git@github.com:sandeep33-k/battle-node-api
- npm install
- node start
+To walk through a complete experience where this code is packaged into container images, uploaded to Azure Container Registry, and then run in and AKS cluster, see the [AKS tutorials](https://docs.microsoft.com/en-us/azure/aks/tutorial-kubernetes-prepare-app?WT.mc_id=none-github-nepeters).
 
+## Contributing
 
-API Endpoints
+This project welcomes contributions and suggestions.  Most contributions require you to agree to a
+Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
+the rights to use your contribution. For details, visit https://cla.microsoft.com.
 
-GET http://localhost:5000/api/v1/authorize?username=battle_dev_user&password=BaTtL@User01&grant=api
-GET http://localhost:5000/api/v1/list
-GET http://localhost:5000/api/v1/count
-GET http://localhost:5000/api/v1/stats
-GET http://localhost:5000/api/v1/search?king=Robb Stark&location=Winterfell&type=ambush
+When you submit a pull request, a CLA-bot will automatically determine whether you need to provide
+a CLA and decorate the PR appropriately (e.g., label, comment). Simply follow the instructions
+provided by the bot. You will only need to do this once across all repos using our CLA.
 
-
-Authentication
-	Please make authoize API call to create JWT token. Kindly add JWT token in header as x-access-token  for allow  access to rest of the api calls.
-
-SAMPLE CURL :
- 
-curl -X GET \
-  http://localhost:5000/api/v1/battle/stats \
-  -H 'x-access-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1NDM1ODQyODA0NjEsImlzcyI6IkJhdHRsZSBOb2RlIEFQSSIsIm5hbWUiOiJiYXR0bGVfZGV2X3VzZXIiLCJ1c2VySWQiOiJ2d3BmbzZoamV1OTE1NDI5Nzk0ODA0NjEiLCJ1c2VySWRFbmNyeXB0IjoiZmNhMjI5ODE2ZTgxNDBjZDYyMzA0ZWYzNzNiZTQ1OTVkZWFmYTliZDgyNDFmYmViNTNhZDYyZTlkMjVhOTcyZiJ9.8jyowOG_hRMLhd1W9OlCgm6JIel2smUCOmkM8nvLYKU'
-	
-
-
-
-
-
-
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
+For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
+contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
