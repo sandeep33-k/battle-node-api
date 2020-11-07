@@ -24,7 +24,7 @@
     "jwt-simple": "^0.5.5",
     "moment": "^2.22.2",
     "mongodb": "^2.2.33",
-    "mongoose": "^4.13.6",
+    "mongoose": "^5.7.5",
     "winston": "^3.1.0"
   }
 }
