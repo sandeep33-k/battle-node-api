@@ -30,6 +30,7 @@ Predefined routes available in this API
 sample response 
 
 ````javascript
+-RESPONSE
 {
 "statusCode" : 200,
 "data" : [
