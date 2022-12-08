@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/sandeep33-k/battle-node-api#readme",
   "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.16.2",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
     "helmet": "^3.15.0",
     "jwt-simple": "^0.5.5",
     "moment": "^2.22.2",
